@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class UserRestController {
 
 	@GetMapping("/test")
-    public String testCall(){
+    public String testCall(){ 
         return "welcome to test spring boot project final commit!";
     }
 }
