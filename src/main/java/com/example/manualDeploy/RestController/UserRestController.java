@@ -8,6 +8,6 @@ public class UserRestController {
 
 	@GetMapping("/test")
     public String testCall(){
-        return "welcome to test the sprininboot project final commit!";
+        return "welcome to test the spring boot project final commit!";
     }
 }
